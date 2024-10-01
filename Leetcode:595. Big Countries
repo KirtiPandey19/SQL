@@ -1,0 +1,5 @@
+Leetcode:595. Big Countries
+Code:
+SELECT name,area,population
+From World
+Where area>=3000000 or population>=25000000
